@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "template-cockroachdb-python-api"
+version = "0.1.0"
+description = ""
+authors = ["Cybernetic-Ransomware <71835339+Cybernetic-Ransomware@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+sqlalchemy = "^2.0.36"
+psycopg2-binary = "^2.9.10"
+sqlalchemy-cockroachdb = "^2.0.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
